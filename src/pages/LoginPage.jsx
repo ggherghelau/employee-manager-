@@ -22,8 +22,8 @@ import AuthContext from 'auth/AuthContext';
 
 	const LoginPage = (props) => {
 		const auth = useContext(AuthContext)
-		const [email, setEmail]=useState()
-		const [password, setPassword] = useState()
+		const [email, setEmail]=useState('george@home.ca')
+		const [password, setPassword] = useState('123456')
 		const [isValid, setIsValid] = useState(false)
 
 		console.log('render')
